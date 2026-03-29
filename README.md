@@ -15,17 +15,6 @@
 
 ## Overview
 
-## Screenshots
-
-### Threat Intelligence Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Expanded Threat Card — MITRE ATT&CK Mapping
-![Threat Card](docs/screenshots/threat_card.png)
-
-### Recommended Actions
-![Recommended Actions](docs/screenshots/recommended_actions.png)
-
 ThreatLens is a production-grade threat intelligence platform that uses the Anthropic Claude API with live web search to automatically:
 
 - Pull real-time cybersecurity threat data from across the internet
