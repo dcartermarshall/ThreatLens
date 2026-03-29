@@ -1,16 +1,36 @@
-# React + Vite
+# ThreatLens — AI-Powered Threat Intelligence Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Real-time threat intelligence, MITRE ATT&CK mapping, and healthcare sector analysis — powered by Claude AI and live web search.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Threat Intelligence Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
 
-## React Compiler
+### Expanded Threat Card — MITRE ATT&CK Mapping
+![Threat Card](docs/screenshots/threat_card.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Recommended Actions
+![Recommended Actions](docs/screenshots/recommended_actions.png)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ThreatLens is a production-grade threat intelligence platform that uses the Anthropic Claude API with live web search to automatically:
+
+- Pull real-time cybersecurity threat data from across the internet
+- Summarize threats with structured severity scoring (1–10 scale)
+- Identify affected industries including healthcare, finance, energy, and government
+- Map threats to MITRE ATT&CK techniques and tactics (Enterprise v15)
+- Extract IOCs — CVEs, behavioral indicators, malicious domains
+- Generate healthcare-specific alerts with HIPAA implications
+- Provide analyst notes with operational recommendations
+
+## Stack
+
+React · Anthropic Claude API · web_search tool · MITRE ATT&CK v15 · NIST SP 800-61
+
+## About
+
+Built by **D'Anthony Carter-Marshall** | CompTIA Security+ (SY0-701) | University of Kansas Health System | Secret clearance eligible
+
+github.com/dcartermarshall
